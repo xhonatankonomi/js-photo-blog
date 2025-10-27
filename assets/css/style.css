@@ -10,3 +10,11 @@ body {
    display: flex;
    flex-direction: column;
 }
+
+header {
+   background-image: url('../img/wall.png');
+   background-size: cover;
+   background-position: center;
+   padding: 2rem 0;
+   text-align: center;
+}
