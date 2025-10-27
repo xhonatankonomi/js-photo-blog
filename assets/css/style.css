@@ -47,4 +47,30 @@ h1 {
    max-width: 300px;
 }
 
+.photo img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.photo .caption {
+   text-align: center;
+   margin-top: 1rem;
+   font-family: 'Sometype Mono', monospace;
+   font-size: 0.9rem;
+   color: #666;
+}
+
+.pin {
+   width: 20px;
+   height: 20px;
+   background: #cc0000;
+   border-radius: 50%;
+   position: absolute;
+   top: -10px;
+   left: 50%;
+   transform: translateX(-50%);
+   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
 
