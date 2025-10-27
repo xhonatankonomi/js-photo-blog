@@ -32,3 +32,19 @@ h1 {
    padding: 2rem;
    position: relative;
 }
+
+.photo-container {
+   display: flex;
+   justify-content: center;
+   padding: 1rem;
+}
+
+.photo {
+   background: white;
+   padding: 1rem;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   position: relative;
+   max-width: 300px;
+}
+
+
